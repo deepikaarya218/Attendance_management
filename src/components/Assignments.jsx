@@ -68,7 +68,7 @@ function Assignments() {
 
       {/* Top */}
       <div className="top-bar">
-        <h3>Assignments</h3>
+        <h2>Assignments</h2>
 
         <select value={batch} onChange={(e) => setBatch(e.target.value)}>
           <option value="">Select Batch</option>

@@ -84,7 +84,7 @@ function LiveSession() {
 
   return (
     <div className="container">
-      <h1>Attendance Session</h1>
+      <h2>Attendance Session</h2>
 
       {/* Top Section */}
       <div className="top">

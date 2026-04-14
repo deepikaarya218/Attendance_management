@@ -16,11 +16,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .top-bar h3 {
   margin: 0;
+  
 }
 
 .top-bar select {
