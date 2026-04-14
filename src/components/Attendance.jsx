@@ -1,5 +1,5 @@
-function Attendance() {
-  return <h1>Attendance Page ✅</h1>;
+function Suggestions() {
+  return <h1>Suggestions Page ✅</h1>;
 }
 
-export default Attendance;
+export default Suggestions;

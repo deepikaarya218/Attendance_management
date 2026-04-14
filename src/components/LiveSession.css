@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6fb;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Top Layout */
+.top {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.label {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+select {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Control */
+.info-box {
+  background: #eef2ff;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.start {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.end {
+  background: #f87171;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.stat {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Progress */
+.progress-card {
+  background: white;
+  padding: 15px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 10px;
+}
+
+.fill {
+  height: 100%;
+  background: linear-gradient(to right, #6366f1, #8b5cf6);
+  border-radius: 10px;
+}
+
+/* Table */
+.table-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Badge */
+.badge {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.present {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.not {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+/* Button */
+.present-btn {
+  background: #6ee7b7;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: #065f46;
+}
