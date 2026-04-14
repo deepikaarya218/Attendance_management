@@ -1,0 +1,107 @@
+.assignment-container {
+  padding: 10px 0;
+}
+
+/* Top */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.top-bar select {
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: white;
+}
+
+/* Upload section */
+.upload-section {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.upload-section input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.upload-section button {
+  background: #1976d2;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Table card */
+.table-card {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 14px;
+  color: #555;
+  font-weight: 600;
+}
+
+td {
+  padding: 14px;
+  border-top: 1px solid #eee;
+}
+
+/* Status */
+.status {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.submitted {
+  background: #d4edda;
+  color: #2e7d32;
+}
+
+.pending {
+  background: #fdecea;
+  color: #d32f2f;
+}
+
+/* Buttons */
+.view-btn {
+  background: #e3f2fd;
+  color: #1976d2;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.pending-text {
+  color: #888;
+}
+
+/* Center text */
+.center {
+  text-align: center;
+}

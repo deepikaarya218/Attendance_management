@@ -1,0 +1,36 @@
+/* Main layout */
+.dashboard {
+  display: flex;
+  height: 100vh;
+  background: #f5f7fb;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Sidebar area */
+.sidebar {
+  width: 240px;
+  background: #ffffff;
+  border-right: 1px solid #eee;
+  padding: 20px;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 30px;
+}
+
+/* Header */
+.main-content h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Card style */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
