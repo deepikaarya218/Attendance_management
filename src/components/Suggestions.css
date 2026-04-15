@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6fb;
+}
+
+/* Main Container */
+.suggestions-container {
+  padding: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Card Wrapper */
+.suggestions-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Title */
+.suggestions-container h2 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+/* List */
+.suggestions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Each Message */
+.suggestion-card {
+  display: flex;
+  align-items: flex-start;
+  background: #f9fbff;
+  padding: 14px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.suggestion-card:hover {
+  background: #eef3ff;
+}
+
+/* Avatar */
+.avatar {
+  width: 42px;
+  height: 42px;
+  background: #1a73e8;
+  color: white;
+  font-weight: 600;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+/* Content */
+.content {
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.name {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.time {
+  font-size: 12px;
+  color: #888;
+}
+
+.content p {
+  margin: 0;
+  color: #444;
+  font-size: 14px;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.delete-btn:hover {
+  color: red;
+}
+
+/* Reply Box */
+.reply-box {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.reply-box input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 14px;
+}
+
+.reply-box input:focus {
+  border-color: #1a73e8;
+}
+
+/* Button like your "Add" button */
+.reply-box button {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.reply-box button:hover {
+  background: #16a34a;
+}
