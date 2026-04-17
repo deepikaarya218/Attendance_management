@@ -4,7 +4,7 @@ import Assignments from "../components/Assignments";
 import Attendance from "../components/Attendance";
 import Suggestions from "../components/Suggestions";
 import LiveSession from "../components/LiveSession";
-import "./Dashboard.css";
+import "./pages/Dashboard.css";
 
 function Dashboard() {
   const [active, setActive] = useState("assignments");

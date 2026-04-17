@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "attendace",
+=======
+  "name": "student-dashboard",
+>>>>>>> d79bada1c624279bd8f3270fcbaf99ed272a6b2d
   "private": true,
   "version": "0.0.0",
   "type": "module",
